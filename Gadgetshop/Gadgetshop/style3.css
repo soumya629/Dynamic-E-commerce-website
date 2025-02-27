@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to right,rgb(16, 16, 82),rgb(223, 66, 223));
+}
+.card-img-top{
+    border-radius: 20px;
+    background-image:linear-gradient(to right,rgb(74, 74, 173),rgb(179, 128, 179));
+
+}
+.card{
+    box-shadow: rgba(231, 47, 47, 0.25) 0px 54px 55px, rgba(241, 11, 222, 0.12) 0px -12px 30px, rgba(248, 62, 62, 0.12) 0px 4px 6px, rgba(255, 95, 95, 0.17) 0px 12px 13px, rgba(224, 50, 50, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,rgb(64, 64, 219),rgb(179, 128, 179));
+}
+.card-body{
+   
+    padding: 25px;
+    margin-top: -15px;
+    
+}
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+}
+.btn-primary:hover{
+    background-color: brown;
+}
+h2, h3, h5 ,p{
+    color: rgb(0, 0, 0);
+}
+.text-center{
+    font-size: 50px;
+    font-weight: 800;
+}
+.navbar {
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+    background-color: rgb(24, 198, 195);
+    
+}
+
+
+.navbar .navbar-nav .nav-item a {
+    padding: 20px;
+    color: white;
+}
+
+.navbar .navbar-nav .nav-but {
+    padding: 7px;
+}
+
+
+/* From Uiverse.io by SelfMadeSystem */ 
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.3rem;
+    --stroke: #666;
+    --fill: #ffc73a;
+  }
+  
+  .rating input {
+    appearance: unset;
+  }
+  
+  .rating label {
+    cursor: pointer;
+  }
+  
+  .rating svg {
+    width: 2rem;
+    height: 2rem;
+    overflow: visible;
+    fill: transparent;
+    stroke: var(--stroke);
+    stroke-linejoin: bevel;
+    stroke-dasharray: 12;
+    animation: idle 4s linear infinite;
+    transition: stroke 0.2s, fill 0.5s;
+  }
+  
+  @keyframes idle {
+    from {
+      stroke-dashoffset: 24;
+    }
+  }
+  
+  .rating label:hover svg {
+    stroke: var(--fill);
+  }
+  
+  .rating input:checked ~ label svg {
+    transition: 0s;
+    animation: idle 4s linear infinite, yippee 0.75s backwards;
+    fill: var(--fill);
+    stroke: var(--fill);
+    stroke-opacity: 0;
+    stroke-dasharray: 0;
+    stroke-linejoin: miter;
+    stroke-width: 8px;
+  }
+  
+  @keyframes yippee {
+    0% {
+      transform: scale(1);
+      fill: var(--fill);
+      fill-opacity: 0;
+      stroke-opacity: 1;
+      stroke: var(--stroke);
+      stroke-dasharray: 10;
+      stroke-width: 1px;
+      stroke-linejoin: bevel;
+    }
+  
+    30% {
+      transform: scale(0);
+      fill: var(--fill);
+      fill-opacity: 0;
+      stroke-opacity: 1;
+      stroke: var(--stroke);
+      stroke-dasharray: 10;
+      stroke-width: 1px;
+      stroke-linejoin: bevel;
+    }
+  
+    30.1% {
+      stroke: var(--fill);
+      stroke-dasharray: 0;
+      stroke-linejoin: miter;
+      stroke-width: 8px;
+    }
+  
+    60% {
+      transform: scale(1.2);
+      fill: var(--fill);
+    }
+  }
+  

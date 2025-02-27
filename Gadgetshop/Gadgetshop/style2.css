@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(63, 41, 63),rgb(7, 7, 82));
+} 
+.card-img-top{
+    border-radius: 20px;
+}
+.card{
+    box-shadow: rgba(231, 47, 47, 0.25) 0px 54px 55px, rgba(241, 11, 222, 0.12) 0px -12px 30px, rgba(248, 62, 62, 0.12) 0px 4px 6px, rgba(255, 95, 95, 0.17) 0px 12px 13px, rgba(224, 50, 50, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    background-image:linear-gradient(to right,rgb(107, 107, 179),rgb(179, 128, 179));
+}
+.card-body{
+   
+    padding: 25px;
+    margin-top: -15px;
+    
+}
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+}
+.btn-primary:hover{
+    background-color: brown;
+}
+ h3, h5{
+    color: rgb(0, 0, 0);
+}
+.text-center{
+    font-size: 50px;
+    font-weight: 800;
+}
+.navbar {
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+    background-color: rgb(24, 198, 195);
+    
+}
+
+
+.navbar .navbar-nav .nav-item a {
+    padding: 20px;
+    color: white;
+}
+
+.navbar .navbar-nav .nav-but {
+    padding: 7px;
+}
+
